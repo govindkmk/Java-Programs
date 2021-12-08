@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Enter Mathematics marks: ");
+		int sub1 = sc.nextInt();
+		
+		System.out.println("Enter Chemistry marks: ");
+		int sub2 = sc.nextInt();
+		
+		System.out.println("Enter Physics marks: ");
+		int sub3 = sc.nextInt();
+		
+		System.out.println("Enter Pakistan Studies marks: ");
+		int sub4 = sc.nextInt();
+		
+		System.out.println("Enter Ethics marks: ");
+		int sub5 = sc.nextInt();
+		
+		
+		int total_marks;
+		
+		total_marks = sub1 + sub2 + sub3 + sub4 + sub5;
+		
+		System.out.println("The total marks = " +total_marks);
+		
+		int percentage;
+		
+		percentage = (total_marks*100) / 500;
+		
+		System.out.println("The Percentage is " +percentage);
+		
+	}
+}
